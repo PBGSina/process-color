@@ -1,399 +1,405 @@
-2025-02-11 09:27:46,119 - asyncio - DEBUG - Using selector: KqueueSelector
-2025-02-11 09:27:46,850 - __main__ - ERROR - خطای نهایی برنامه: name 'SESSION_STRING' is not defined
-2025-02-11 09:32:06,339 - asyncio - DEBUG - Using selector: KqueueSelector
-2025-02-11 09:32:06,343 - __main__ - ERROR - خطای نهایی برنامه: name 'SESSION_STRING' is not defined
-2025-02-11 09:40:58,199 - asyncio - DEBUG - Using selector: KqueueSelector
-2025-02-11 09:40:58,680 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
-2025-02-11 09:40:58,682 - telethon.network.mtprotosender - DEBUG - Connection attempt 1...
-2025-02-11 09:40:58,970 - telethon.network.mtprotosender - DEBUG - Connection success!
-2025-02-11 09:40:58,976 - telethon.network.mtprotosender - DEBUG - Starting send loop
-2025-02-11 09:40:58,978 - telethon.network.mtprotosender - DEBUG - Starting receive loop
-2025-02-11 09:40:58,986 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
-2025-02-11 09:40:58,988 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:40:58,991 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078816204301684 to InvokeWithLayerRequest (1c3e35a4c150)
-2025-02-11 09:40:58,991 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
-2025-02-11 09:40:58,993 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:40:58,997 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:40:59,006 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:40:59,040 - telethon.network.mtprotosender - DEBUG - Handling bad salt for message 7470078816204301684
-2025-02-11 09:40:59,042 - telethon.network.mtprotosender - DEBUG - 1 message(s) will be resent
-2025-02-11 09:40:59,046 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:40:59,047 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078816729384872 to InvokeWithLayerRequest (1c3e35a4c150)
-2025-02-11 09:40:59,051 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
-2025-02-11 09:40:59,052 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:40:59,054 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:40:59,064 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078816788051100 to MsgsAck (1c3e35a4cd50)
-2025-02-11 09:40:59,066 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:40:59,070 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:40:59,075 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:00,267 - telethon.network.mtprotosender - DEBUG - Handling container
-2025-02-11 09:41:00,400 - telethon.network.mtprotosender - DEBUG - Handling new session created
-2025-02-11 09:41:00,448 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7470078816729384872]
-2025-02-11 09:41:00,464 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:00,471 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078816729384872
-2025-02-11 09:41:00,480 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:00,636 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078823338404748 to GetUsersRequest (1c3e35418210)
-2025-02-11 09:41:00,699 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2025-02-11 09:41:00,777 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:00,791 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:00,854 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078824077918148 to MsgsAck (1c3e35418190)
-2025-02-11 09:41:00,880 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
-2025-02-11 09:41:00,951 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:01,031 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:01,111 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078823338404748
-2025-02-11 09:41:01,111 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:01,111 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078825576904036 to GetStateRequest (1c3e35418210)
-2025-02-11 09:41:01,112 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
-2025-02-11 09:41:01,112 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:01,112 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:01,112 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078825579189040 to MsgsAck (1c3e35a4c150)
-2025-02-11 09:41:01,112 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:01,112 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:01,119 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:01,222 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078825576904036
-2025-02-11 09:41:01,290 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:01,329 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078826448858000 to GetUsersRequest (1c3e35a4d210)
-2025-02-11 09:41:01,369 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2025-02-11 09:41:01,440 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:01,471 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:01,487 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078827077171064 to MsgsAck (1c3e35a4d390)
-2025-02-11 09:41:01,516 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:01,568 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:01,592 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:01,745 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078826448858000
-2025-02-11 09:41:01,833 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:01,978 - __main__ - INFO - کلاینت با موفقیت راه‌اندازی شد
-2025-02-11 09:41:02,150 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078830025336604 to ResolveUsernameRequest (1c3e35a4d750)
-2025-02-11 09:41:02,194 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2025-02-11 09:41:02,205 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:02,227 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:02,300 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078830457506516 to MsgsAck (1c3e35a4d710)
-2025-02-11 09:41:02,394 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:02,397 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:02,399 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:02,528 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078830025336604
-2025-02-11 09:41:02,544 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:02,545 - __main__ - INFO - کانال مقصد: cproxy24
-2025-02-11 09:41:02,545 - __main__ - INFO - شروع بررسی کانال GlypeX
-2025-02-11 09:41:02,545 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078831607019760 to ResolveUsernameRequest (1c3e35a4d750)
-2025-02-11 09:41:02,961 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
-2025-02-11 09:41:03,230 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:03,238 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:03,238 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078834673419936 to MsgsAck (1c3e35a4d5d0)
-2025-02-11 09:41:03,339 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:03,524 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:03,525 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:03,598 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078831607019760
-2025-02-11 09:41:03,603 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:03,620 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078836199161512 to GetHistoryRequest (1c3e35a4df90)
-2025-02-11 09:41:03,625 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2025-02-11 09:41:03,626 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:03,629 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:03,630 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078836241668684 to MsgsAck (1c3e35a4d550)
-2025-02-11 09:41:03,637 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:03,643 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:03,645 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:03,749 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078836199161512
-2025-02-11 09:41:03,833 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:03,834 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,834 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,843 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,845 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,846 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,848 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,849 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,850 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,850 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,851 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,854 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,854 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,855 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,866 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,868 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,869 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,906 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,920 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,926 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,928 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,930 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,937 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,943 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,947 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,950 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,965 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,966 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,966 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,966 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,966 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,966 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,967 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.62&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.62&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
-2025-02-11 09:41:03,968 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,086 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,111 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,117 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,125 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,149 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,150 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,150 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,171 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,187 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,210 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,263 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,354 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,487 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,495 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,496 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,497 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,498 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,499 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,500 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,501 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:04,502 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:04,503 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:04,535 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:04,549 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,566 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,595 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,652 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,668 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:04,858 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
-2025-02-11 09:41:04,923 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:05,342 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:05,361 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:05,362 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:05,362 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:05,362 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,362 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,456 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,456 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,457 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,479 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:05,510 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:05,664 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:05,684 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:05,736 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:05,786 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:05,826 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:05,898 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,024 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,110 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,173 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:06,174 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
-2025-02-11 09:41:06,174 - __main__ - INFO - 220 پروکسی از GlypeX یافت شد
-2025-02-11 09:41:06,174 - __main__ - INFO - شروع بررسی کانال iMTProto
-2025-02-11 09:41:06,175 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078847304365028 to ResolveUsernameRequest (1c3e35a72f90)
-2025-02-11 09:41:06,175 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
-2025-02-11 09:41:06,175 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:06,175 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:06,175 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078847305841316 to MsgsAck (1c3e35a72790)
-2025-02-11 09:41:06,175 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:06,540 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:06,551 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:06,610 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078847304365028
-2025-02-11 09:41:06,811 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:06,836 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078849948652136 to GetHistoryRequest (1c3e35a4de90)
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:06,836 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078849950334420 to MsgsAck (1c3e35a4ded0)
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:06,836 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:07,154 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078849948652136
-2025-02-11 09:41:07,740 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:07,797 - __main__ - INFO - تعداد کل پروکسی‌های یکتا: 22
-2025-02-11 09:41:07,797 - __main__ - INFO - نمونه پروکسی‌های یافت شده:
-2025-02-11 09:41:07,797 - __main__ - INFO - نمونه 1: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
-2025-02-11 09:41:07,797 - __main__ - INFO - نمونه 2: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:07,797 - __main__ - INFO - نمونه 3: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:07,797 - __main__ - INFO - تعداد 6 پروکسی انتخاب شد
-2025-02-11 09:41:08,174 - __main__ - DEBUG - پروکسی 1: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:08,222 - __main__ - DEBUG - پروکسی 2: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:08,242 - __main__ - DEBUG - پروکسی 3: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,365 - __main__ - DEBUG - پروکسی 4: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:08,472 - __main__ - DEBUG - پروکسی 5: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,746 - __main__ - DEBUG - پروکسی 6: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,750 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
-2025-02-11 09:41:08,782 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
-2025-02-11 09:41:08,783 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,783 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
-2025-02-11 09:41:08,783 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,783 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
-2025-02-11 09:41:08,809 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078858419418448 to SendMessageRequest (1c3e35a5cc90)
-2025-02-11 09:41:08,815 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 652 bytes for sending
-2025-02-11 09:41:08,815 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:08,816 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:08,816 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470078858460312956 to MsgsAck (1c3e353fb7d0)
-2025-02-11 09:41:08,818 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:41:08,818 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:41:08,819 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:41:08,842 - telethon.network.mtprotosender - DEBUG - Handling update Updates
-2025-02-11 09:41:08,842 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:08,843 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7470078858419418448]
-2025-02-11 09:41:08,843 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:09,114 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470078858419418448
-2025-02-11 09:41:09,115 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:09,115 - __main__ - INFO - پیام با موفقیت ارسال شد - تعداد پروکسی: 6
-2025-02-11 09:41:09,115 - __main__ - INFO - انتظار برای 10 دقیقه...
-2025-02-11 09:41:18,634 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
-2025-02-11 09:41:18,634 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:36,838 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
-2025-02-11 09:41:36,839 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:41:36,841 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
-2025-02-11 09:41:36,841 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:42:01,330 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470079084149860732 to PingRequest (1c3e35a90fd0)
-2025-02-11 09:42:01,330 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
-2025-02-11 09:42:01,331 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:42:01,331 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:42:01,331 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470079084152991648 to MsgsAck (1c3e35a90f50)
-2025-02-11 09:42:01,331 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
-2025-02-11 09:42:01,331 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:42:01,331 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:42:01,353 - telethon.network.mtprotosender - DEBUG - Handling pong for message 7470079084149860732
-2025-02-11 09:42:01,353 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
-2025-02-11 09:43:01,331 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470079341851384172 to PingRequest (1c3e35a910d0)
-2025-02-11 09:43:01,331 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
-2025-02-11 09:43:01,332 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:43:01,332 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:43:01,332 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470079341854707728 to MsgsAck (1c3e35a912d0)
-2025-02-11 09:43:01,332 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
-2025-02-11 09:43:01,332 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
-2025-02-11 09:43:01,332 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
-2025-02-11 09:43:01,360 - telethon.network.mtprotosender - DEBUG - Handling pong for message 7470079341851384172
-2025-02-11 09:43:01,360 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,060 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-11 09:54:42,061 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-02-11 09:54:42,061 - telethon.network.mtprotosender - DEBUG - Connection attempt 1...
+2025-02-11 09:54:42,092 - telethon.network.mtprotosender - DEBUG - Connection success!
+2025-02-11 09:54:42,104 - telethon.network.mtprotosender - DEBUG - Starting send loop
+2025-02-11 09:54:42,105 - telethon.network.mtprotosender - DEBUG - Starting receive loop
+2025-02-11 09:54:42,108 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-02-11 09:54:42,110 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,121 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082351783330724 to InvokeWithLayerRequest (93f58e4c0d0)
+2025-02-11 09:54:42,129 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2025-02-11 09:54:42,131 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,131 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,132 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,198 - telethon.network.mtprotosender - DEBUG - Handling bad salt for message 7470082351783330724
+2025-02-11 09:54:42,198 - telethon.network.mtprotosender - DEBUG - 1 message(s) will be resent
+2025-02-11 09:54:42,199 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,199 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082352094920920 to InvokeWithLayerRequest (93f58e4c0d0)
+2025-02-11 09:54:42,199 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2025-02-11 09:54:42,200 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,200 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,200 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082352098757552 to MsgsAck (93f58dcc0d0)
+2025-02-11 09:54:42,200 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:42,205 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,218 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,274 - telethon.network.mtprotosender - DEBUG - Handling container
+2025-02-11 09:54:42,288 - telethon.network.mtprotosender - DEBUG - Handling new session created
+2025-02-11 09:54:42,440 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7470082352094920920]
+2025-02-11 09:54:42,455 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,457 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082352094920920
+2025-02-11 09:54:42,478 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,491 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082353262133404 to GetUsersRequest (93f587fbd10)
+2025-02-11 09:54:42,495 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-02-11 09:54:42,499 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,501 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,552 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082353505614088 to MsgsAck (93f58818790)
+2025-02-11 09:54:42,555 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2025-02-11 09:54:42,558 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,566 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,715 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082353262133404
+2025-02-11 09:54:42,723 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,778 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082354408180996 to GetStateRequest (93f587fbd10)
+2025-02-11 09:54:42,778 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2025-02-11 09:54:42,779 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,780 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,780 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082354419090076 to MsgsAck (93f58e42dd0)
+2025-02-11 09:54:42,780 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:42,781 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,781 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,896 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082354408180996
+2025-02-11 09:54:42,898 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:42,900 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082354897425460 to GetUsersRequest (93f58e4d310)
+2025-02-11 09:54:42,906 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-02-11 09:54:42,916 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,921 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:42,923 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082354991761968 to MsgsAck (93f58e4d450)
+2025-02-11 09:54:42,924 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:42,925 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:42,926 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,044 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082354897425460
+2025-02-11 09:54:43,044 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:43,064 - __main__ - INFO - کلاینت با موفقیت راه‌اندازی شد
+2025-02-11 09:54:43,076 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082355896474288 to ResolveUsernameRequest (93f58e4d750)
+2025-02-11 09:54:43,077 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-02-11 09:54:43,086 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,087 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,090 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082355951930452 to MsgsAck (93f58e4d6d0)
+2025-02-11 09:54:43,091 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:43,091 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,092 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,233 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082355896474288
+2025-02-11 09:54:43,234 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:43,235 - __main__ - INFO - کانال مقصد: cproxy24
+2025-02-11 09:54:43,236 - __main__ - INFO - شروع بررسی کانال GlypeX
+2025-02-11 09:54:43,254 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082356608323504 to ResolveUsernameRequest (93f58e4d650)
+2025-02-11 09:54:43,254 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
+2025-02-11 09:54:43,335 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,337 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,353 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082357006536888 to MsgsAck (93f58e4de90)
+2025-02-11 09:54:43,353 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:43,354 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,354 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,463 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082356608323504
+2025-02-11 09:54:43,464 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:43,466 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082357457617212 to GetHistoryRequest (93f58e4e0d0)
+2025-02-11 09:54:43,466 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-02-11 09:54:43,475 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,476 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,476 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082357498496460 to MsgsAck (93f58e4d610)
+2025-02-11 09:54:43,481 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:43,482 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:43,482 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:43,661 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082357457617212
+2025-02-11 09:54:43,729 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:43,735 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:43,736 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:43,739 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:43,741 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:43,744 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:43,745 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,747 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,750 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,751 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,752 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,753 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:43,753 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:43,753 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:43,753 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:43,754 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:43,760 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:43,760 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,761 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,761 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,761 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,767 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,780 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:43,793 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:43,801 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:43,802 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:43,803 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:43,804 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:43,804 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,804 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,804 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,804 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,805 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,806 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:43,806 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:43,810 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,813 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,814 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,814 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,814 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:43,814 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:43,819 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:43,845 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:43,866 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:43,935 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:43,982 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:43,998 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,007 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,218 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,234 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,402 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:44,470 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:44,657 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=192.168.1.1.apt-kernel.org.copan-moban.info.&port=2040&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:44,685 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:44,692 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:44,707 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:44,747 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,754 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,795 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,803 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,816 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.62&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,840 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:44,857 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:44,864 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:44,873 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:44,888 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:44,895 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:44,934 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,935 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,935 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,982 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,983 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.62&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:44,983 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:44,985 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:44,987 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:44,994 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:44,997 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:44,998 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,006 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,009 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,010 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,011 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,069 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,087 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,088 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,091 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,092 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,093 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,093 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,094 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,094 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,094 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,094 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,099 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,099 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,100 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,100 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=Acceleytor-nuremberg.tourbo-motors.Soshal.borcarmo-091.info.&port=9060&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,100 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,100 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,101 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,127 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,130 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,131 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,131 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,132 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,139 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,141 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,158 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,162 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,162 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,162 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,165 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,165 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,189 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,190 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,192 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,193 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,194 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,195 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,195 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,195 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,195 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,195 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,196 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,196 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,197 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,197 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,197 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,197 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,197 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,198 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,199 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.108.80.13&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.166.112&port=7603&secret=ee0ad565389bb264b33c81f11bd42c104b7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,200 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.61&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,201 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,202 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,203 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,203 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,203 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,203 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.157.218&port=7743&secret=eedbe97246f57a3e90ccc1c3f25b8e15ef7777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,203 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,204 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,204 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,204 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,204 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,204 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=23.88.51.230&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,205 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,206 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,206 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,206 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,206 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,206 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,207 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,207 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.80&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,207 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,207 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:45,207 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=176.65.135.52&port=69&secret=7gD_AA___wD_9VVf______VmLmtvLS0=&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.67&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=65.21.254.170&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,208 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=128.140.13.248&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,209 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,209 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=37.27.8.188&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:45,209 - __main__ - DEBUG - پروکسی یافت شد: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:45,209 - __main__ - INFO - 220 پروکسی از GlypeX یافت شد
+2025-02-11 09:54:45,209 - __main__ - INFO - شروع بررسی کانال iMTProto
+2025-02-11 09:54:45,210 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082365023972204 to ResolveUsernameRequest (93f58e73090)
+2025-02-11 09:54:45,210 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2025-02-11 09:54:45,210 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:45,211 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:45,211 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082365028635672 to MsgsAck (93f58e728d0)
+2025-02-11 09:54:45,211 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:45,212 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:45,212 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:45,258 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082365023972204
+2025-02-11 09:54:45,272 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:45,533 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082366317906072 to GetHistoryRequest (93f58e4df90)
+2025-02-11 09:54:45,552 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 72 bytes for sending
+2025-02-11 09:54:45,596 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:45,652 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:45,746 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082367167682340 to MsgsAck (93f58e4dfd0)
+2025-02-11 09:54:45,801 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:45,801 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:45,802 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:45,886 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082366317906072
+2025-02-11 09:54:46,031 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:46,033 - __main__ - INFO - تعداد کل پروکسی‌های یکتا: 22
+2025-02-11 09:54:46,033 - __main__ - INFO - نمونه پروکسی‌های یافت شده:
+2025-02-11 09:54:46,033 - __main__ - INFO - نمونه 1: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:46,033 - __main__ - INFO - نمونه 2: tg://proxy?server=cloudflare.com.nokia.com.co.uk.do_yo.want_to.clash_with.this.www.microsoft.com.there_is_no.place_like.localhost.www.bing.com.count_with_me.cyou.net.digikala.com.www.enamad.ir.www.google.com.again_to_fight.everyone.i_am.the_internet.bolombergon-88.info&port=4550&secret=DDBighLLvXrFGRMCBVJdFQRueWVrdGFuZXQuY29tZmFyYTrhdi5jb212YZ6ubmFqXeEuY29tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&@Glype
+2025-02-11 09:54:46,034 - __main__ - INFO - نمونه 3: tg://proxy?server=136.243.152.251&port=37&secret=DDBighLLvXrFGRMCBVJdFQ==&@Glype
+2025-02-11 09:54:46,034 - __main__ - INFO - تعداد 6 پروکسی انتخاب شد
+2025-02-11 09:54:46,034 - __main__ - DEBUG - پروکسی 1: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:46,034 - __main__ - DEBUG - پروکسی 2: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:46,034 - __main__ - DEBUG - پروکسی 3: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - پروکسی 4: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - پروکسی 5: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - پروکسی 6: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=95.217.240.195&port=8888&secret=FgMBAgABAAH8AwOG4kw63Q&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=51.159.149.220&port=8000&secret=eee72cf91a4fee7902896720b31c3c14e27777772e736974652e636f6d&@Glype
+2025-02-11 09:54:46,035 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=91.107.138.47&port=299&secret=eeNEgYdJvXrFGRMCIMJdCQ==&@Glype
+2025-02-11 09:54:46,036 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=51.159.165.172&port=7549&secret=eeff9890eed0a3c6fbfafeb2608a4aedb37777772e736974652e636f6d&@Glype
+2025-02-11 09:54:46,036 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=49.13.145.55&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:46,036 - __main__ - DEBUG - ساخت دکمه برای پروکسی: tg://proxy?server=49.13.145.84&port=443&secret=3QAAAAAAAAAAAAAAAAAAAAA=&@Glype
+2025-02-11 09:54:46,040 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082368637503916 to SendMessageRequest (93f58e5cb90)
+2025-02-11 09:54:46,040 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 596 bytes for sending
+2025-02-11 09:54:46,040 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:46,041 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:46,041 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082368642211252 to MsgsAck (93f58e90690)
+2025-02-11 09:54:46,041 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:46,041 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:46,041 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:46,305 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082368637503916
+2025-02-11 09:54:46,309 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:46,310 - __main__ - INFO - پیام با موفقیت ارسال شد - تعداد پروکسی: 6
+2025-02-11 09:54:46,310 - __main__ - INFO - انتظار برای 10 دقیقه...
+2025-02-11 09:54:46,856 - telethon.client.updates - DEBUG - Timeout waiting for updates expired
+2025-02-11 09:54:46,865 - telethon.client.updates - DEBUG - Getting difference for channel 2464582365 updates
+2025-02-11 09:54:46,881 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082372004430108 to GetChannelDifferenceRequest (93f58e90e10)
+2025-02-11 09:54:46,882 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 56 bytes for sending
+2025-02-11 09:54:46,882 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:46,883 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:46,885 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082372019255932 to MsgsAck (93f58e90e50)
+2025-02-11 09:54:46,887 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:54:46,888 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:54:46,892 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:54:46,943 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7470082372004430108
+2025-02-11 09:54:46,945 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:54:46,955 - telethon.client.updates - INFO - Got difference for channel 2464582365 updates
+2025-02-11 09:54:57,923 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
+2025-02-11 09:54:57,923 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:55:37,209 - telethon.network.mtprotosender - DEBUG - Handling container
+2025-02-11 09:55:37,209 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
+2025-02-11 09:55:37,209 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
+2025-02-11 09:55:37,209 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2025-02-11 09:55:37,209 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:55:42,901 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082612600184860 to PingRequest (93f58e91190)
+2025-02-11 09:55:42,901 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
+2025-02-11 09:55:42,901 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:55:42,901 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:55:42,901 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082612603256644 to MsgsAck (93f58e91050)
+2025-02-11 09:55:42,902 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2025-02-11 09:55:42,902 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:55:42,902 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:55:42,931 - telethon.network.mtprotosender - DEBUG - Handling pong for message 7470082612600184860
+2025-02-11 09:55:42,931 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2025-02-11 09:56:42,902 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082870301737864 to PingRequest (93f58818790)
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:56:42,902 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7470082870303993304 to MsgsAck (93f58e91190)
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2025-02-11 09:56:42,902 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2025-02-11 09:56:42,931 - telethon.network.mtprotosender - DEBUG - Handling pong for message 7470082870301737864
+2025-02-11 09:56:42,931 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
