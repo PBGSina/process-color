@@ -1,243 +1,1186 @@
-2025-03-10 17:38:52,666 - __main__ - INFO - ربات معاملاتی راه‌اندازی شد
-2025-03-10 17:38:52,899 - __main__ - INFO - ربات در حال راه‌اندازی است
-2025-03-10 17:38:53,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getMe "HTTP/1.1 200 OK"
-2025-03-10 17:38:53,166 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/deleteWebhook "HTTP/1.1 200 OK"
-2025-03-10 17:38:53,184 - telegram.ext.Application - INFO - Application started
-2025-03-10 17:39:03,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:04,721 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:04,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
-2025-03-10 17:39:12,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:12,705 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 17:39:13,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
-2025-03-10 17:39:23,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:33,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:43,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:39:53,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:03,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:13,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:23,476 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:33,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:43,560 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:40:53,593 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:03,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:13,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:23,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:33,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:43,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:41:53,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:03,830 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:13,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:23,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:33,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:43,993 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:42:54,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:04,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:14,111 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:24,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:34,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:44,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:43:54,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:04,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:13,224 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 17:44:14,322 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:24,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:34,386 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:44,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:44:54,451 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:04,487 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:14,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:24,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:34,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:44,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:45:54,687 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:04,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:14,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:24,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:34,820 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:44,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:46:54,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:04,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:14,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:25,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:35,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:45,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:47:55,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:05,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:15,193 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:25,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:35,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:45,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:48:55,323 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:05,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:13,710 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 17:49:15,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:25,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:35,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:45,486 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:49:55,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:05,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:15,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:25,617 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:35,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:45,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:50:55,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:05,758 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:15,792 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:25,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:35,884 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:45,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:51:55,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:05,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:16,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:26,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:36,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:46,126 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:52:56,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:06,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:16,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:26,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:36,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:46,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:53:56,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:06,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:13,939 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 17:54:16,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:26,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:36,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:46,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:54:56,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:06,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:16,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:26,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:36,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:46,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:55:56,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:06,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:17,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:27,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:37,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:47,157 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:56:57,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:07,232 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:17,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:27,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:37,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:47,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:57:57,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:07,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:17,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:27,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:37,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:47,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:58:57,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:07,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:14,244 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 17:59:17,708 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:27,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:37,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:47,820 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 17:59:57,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:07,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:17,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:27,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:38,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:48,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:00:58,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:08,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:18,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:28,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:38,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:48,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:01:58,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:08,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:18,386 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:28,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:38,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:48,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:02:58,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:08,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:18,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:28,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:38,684 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:48,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:03:58,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:08,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:14,439 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 18:04:18,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:28,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:38,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:48,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:04:58,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:09,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:19,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:29,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:39,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:49,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:05:59,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:09,239 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:19,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:29,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:39,350 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:49,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:06:59,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:09,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:19,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:29,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:39,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:49,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:07:59,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:09,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:19,712 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:29,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:39,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:49,825 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:08:59,861 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:09:09,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:09:14,634 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 18:09:19,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:09:29,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:09:40,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:09:50,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:00,125 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:10,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:20,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:30,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:40,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:10:50,319 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:00,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:10,392 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:20,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:30,466 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:40,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:11:50,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:00,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:10,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:20,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:30,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:40,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:12:50,834 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:00,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:10,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:20,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:30,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:41,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:13:51,066 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:01,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:11,139 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:14,854 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
-2025-03-10 18:14:21,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:31,230 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:41,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:14:51,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:01,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:11,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:21,407 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:31,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:41,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:15:51,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:01,569 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:11,620 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:21,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:31,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:41,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
-2025-03-10 18:16:51,762 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:34,463 - __main__ - INFO - ربات معاملاتی راه‌اندازی شد
+2025-03-11 11:38:34,529 - __main__ - INFO - ربات در حال راه‌اندازی است
+2025-03-11 11:38:34,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getMe "HTTP/1.1 200 OK"
+2025-03-11 11:38:34,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-11 11:38:34,702 - telegram.ext.Application - INFO - Application started
+2025-03-11 11:38:38,751 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:38,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:38:42,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:42,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-11 11:38:42,495 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/TomL00/.local/lib/python3.11/site-packages/telegram/ext/_application.py", line 1343, in process_update
+    await coroutine
+  File "/home/TomL00/.local/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/home/TomL00/trading_bot.py", line 328, in button
+    await self.list_symbols(query.message, context)
+  File "/usr/home/TomL00/trading_bot.py", line 391, in list_symbols
+    user_id = update.effective_user.id
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'effective_user'
+2025-03-11 11:38:50,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:50,994 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81651.41
+            RSI: 60.13726303
+            BB Middle: 81545.169
+            BB Upper: 81841.96225495
+            BB Lower: 81248.37574505
+            NWE: 120127.43855785728
+            Upper Band: 120762.09123816075
+            Lower Band: 119492.78587755382
+            سیگنال: خنثی
+            
+2025-03-11 11:38:50,995 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:38:51,181 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81651.41
+            RSI: 60.13726303
+            BB Middle: 81545.169
+            BB Upper: 81841.96225495
+            BB Lower: 81248.37574505
+            NWE: 120127.43855785728
+            Upper Band: 120762.09123816075
+            Lower Band: 119492.78587755382
+            سیگنال: خنثی
+            
+2025-03-11 11:38:51,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:38:52,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:53,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-11 11:38:53,026 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/TomL00/.local/lib/python3.11/site-packages/telegram/ext/_application.py", line 1343, in process_update
+    await coroutine
+  File "/home/TomL00/.local/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/home/TomL00/trading_bot.py", line 328, in button
+    await self.list_symbols(query.message, context)
+  File "/usr/home/TomL00/trading_bot.py", line 391, in list_symbols
+    user_id = update.effective_user.id
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'effective_user'
+2025-03-11 11:38:59,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:38:59,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:39:09,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:39:19,451 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:39:29,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:39:39,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:39:49,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:39:51,182 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:39:51,548 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81703.22
+            RSI: 62.37479913
+            BB Middle: 81547.7595
+            BB Upper: 81849.08654346
+            BB Lower: 81246.43245654
+            NWE: 128647.55376894439
+            Upper Band: 129300.9045693642
+            Lower Band: 127994.20296852458
+            سیگنال: خنثی
+            
+2025-03-11 11:39:59,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:09,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:19,685 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:29,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:39,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:49,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:40:51,550 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:40:51,763 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81752.54
+            RSI: 63.94028244
+            BB Middle: 81562.9135
+            BB Upper: 81875.00918519
+            BB Lower: 81250.81781481
+            NWE: 134630.96260523892
+            Upper Band: 135314.18663671258
+            Lower Band: 133947.73857376527
+            سیگنال: خنثی
+            
+2025-03-11 11:40:59,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:09,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:19,922 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:29,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:39,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:50,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:41:51,763 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:41:51,966 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81729.83
+            RSI: 63.31000498
+            BB Middle: 81561.77799999999
+            BB Upper: 81871.26005275
+            BB Lower: 81252.29594725
+            NWE: 132229.77324783293
+            Upper Band: 132904.67095248878
+            Lower Band: 131554.87554317707
+            سیگنال: خنثی
+            
+2025-03-11 11:42:00,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:10,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:20,157 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:30,195 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:40,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:50,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:42:51,968 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:42:52,145 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81746.46
+            RSI: 63.77367482
+            BB Middle: 81562.60949999999
+            BB Upper: 81873.97675693
+            BB Lower: 81251.24224307
+            NWE: 133996.21911284144
+            Upper Band: 134677.15578651984
+            Lower Band: 133315.28243916304
+            سیگنال: خنثی
+            
+2025-03-11 11:43:00,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:10,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:20,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:30,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:40,499 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:50,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:43:52,147 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:43:52,342 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81697
+            RSI: 62.04023323
+            BB Middle: 81560.1365
+            BB Upper: 81866.36691292
+            BB Lower: 81253.90608708
+            NWE: 127393.49292120119
+            Upper Band: 128056.10732124085
+            Lower Band: 126730.87852116153
+            سیگنال: خنثی
+            
+2025-03-11 11:44:00,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:10,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:20,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:30,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:40,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:50,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:44:52,342 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:44:52,531 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81730.89
+            RSI: 63.33991328
+            BB Middle: 81561.831
+            BB Upper: 81871.42849434
+            BB Lower: 81252.23350566
+            NWE: 132343.71296825737
+            Upper Band: 133018.98606584425
+            Lower Band: 131668.4398706705
+            سیگنال: خنثی
+            
+2025-03-11 11:45:00,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:10,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:20,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:30,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:40,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:51,017 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:45:52,531 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:45:52,742 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81751.36
+            RSI: 63.93929626
+            BB Middle: 81583.7995
+            BB Upper: 81883.06297562
+            BB Lower: 81284.53602438
+            NWE: 134661.68269653217
+            Upper Band: 135316.8111652635
+            Lower Band: 134006.55422780084
+            سیگنال: خنثی
+            
+2025-03-11 11:46:01,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:11,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:21,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:31,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:41,228 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:51,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:46:52,744 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:46:52,930 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81731.65
+            RSI: 63.24469228
+            BB Middle: 81582.814
+            BB Upper: 81879.98632853
+            BB Lower: 81285.64167147
+            NWE: 132015.18337754734
+            Upper Band: 132662.97768465398
+            Lower Band: 131367.3890704407
+            سیگنال: خنثی
+            
+2025-03-11 11:47:01,312 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:11,348 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:21,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:31,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:41,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:51,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:47:52,931 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:47:53,138 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81697.7
+            RSI: 61.5289735
+            BB Middle: 81581.1165
+            BB Upper: 81875.24095399
+            BB Lower: 81286.99204601
+            NWE: 125479.55822088414
+            Upper Band: 126113.97002843018
+            Lower Band: 124845.1464133381
+            سیگنال: خنثی
+            
+2025-03-11 11:48:01,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:11,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:21,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:31,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:41,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:51,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:48:53,140 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:48:53,324 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81760
+            RSI: 64.19133392
+            BB Middle: 81584.2315
+            BB Upper: 81884.48456053
+            BB Lower: 81283.97843947
+            NWE: 135622.10677888934
+            Upper Band: 136280.41209819293
+            Lower Band: 134963.80145958575
+            سیگنال: خنثی
+            
+2025-03-11 11:49:01,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:11,827 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:21,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:31,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:41,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:51,983 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:49:53,325 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:49:53,523 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81749.9
+            RSI: 63.89635573
+            BB Middle: 81583.72649999999
+            BB Upper: 81882.82711437
+            BB Lower: 81284.62588563
+            NWE: 134498.05392030944
+            Upper Band: 135152.65435954792
+            Lower Band: 133843.45348107096
+            سیگنال: خنثی
+            
+2025-03-11 11:50:02,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:12,067 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:22,104 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:32,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:42,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:52,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:50:53,525 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:50:53,705 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81717.59
+            RSI: 62.44906897
+            BB Middle: 81601.8725
+            BB Upper: 81883.13718505
+            BB Lower: 81320.60781495
+            NWE: 129015.78742782905
+            Upper Band: 129625.91706782697
+            Lower Band: 128405.65778783114
+            سیگنال: خنثی
+            
+2025-03-11 11:51:02,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:12,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:22,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:32,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:42,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:52,461 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:51:53,706 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:51:53,901 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81659.8
+            RSI: 59.44847892
+            BB Middle: 81598.98300000001
+            BB Upper: 81876.59682766
+            BB Lower: 81321.36917234
+            NWE: 117583.48221102227
+            Upper Band: 118174.56888037383
+            Lower Band: 116992.39554167072
+            سیگنال: خنثی
+            
+2025-03-11 11:52:02,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:12,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:22,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:32,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:42,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:52,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:52:53,902 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:52:54,146 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81672.08
+            RSI: 60.06170986
+            BB Middle: 81599.59700000001
+            BB Upper: 81877.79984345
+            BB Lower: 81321.39415655
+            NWE: 119919.87246278796
+            Upper Band: 120514.49135938444
+            Lower Band: 119325.25356619147
+            سیگنال: خنثی
+            
+2025-03-11 11:53:02,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:12,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:22,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:32,888 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:42,926 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:52,964 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:53:54,146 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:53:54,366 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81672.08
+            RSI: 60.06170986
+            BB Middle: 81599.59700000001
+            BB Upper: 81877.79984345
+            BB Lower: 81321.39415655
+            NWE: 119919.87246278796
+            Upper Band: 120514.49135938444
+            Lower Band: 119325.25356619147
+            سیگنال: خنثی
+            
+2025-03-11 11:54:03,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:13,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:23,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:33,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:43,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:53,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:54:54,367 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:54:54,558 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81640.6
+            RSI: 58.51438218
+            BB Middle: 81598.023
+            BB Upper: 81874.92082293
+            BB Lower: 81321.12517707
+            NWE: 114024.63651622643
+            Upper Band: 114610.74485968947
+            Lower Band: 113438.52817276338
+            سیگنال: خنثی
+            
+2025-03-11 11:55:03,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:03,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:03,593 - __main__ - ERROR - خطا در تحلیل IPUSDT: Exchange or symbol not found.
+2025-03-11 11:55:03,593 - __main__ - ERROR - اندیکاتورهای موجود: آنالیز در دسترس نیست
+2025-03-11 11:55:03,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:55:13,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:23,669 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:23,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:33,768 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:33,946 - __main__ - ERROR - خطا در تحلیل IPUSD: Exchange or symbol not found.
+2025-03-11 11:55:33,946 - __main__ - ERROR - اندیکاتورهای موجود: آنالیز در دسترس نیست
+2025-03-11 11:55:34,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:55:43,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:54,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:54,559 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:55:54,777 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81647.99
+            RSI: 58.7172092
+            BB Middle: 81616.8915
+            BB Upper: 81848.13051875
+            BB Lower: 81385.65248125
+            NWE: 114823.63879154582
+            Upper Band: 115313.72764663538
+            Lower Band: 114333.54993645626
+            سیگنال: خنثی
+            
+2025-03-11 11:55:56,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:55:56,612 - __main__ - ERROR - خطا در تحلیل IP: Exchange or symbol not found.
+2025-03-11 11:55:56,613 - __main__ - ERROR - اندیکاتورهای موجود: آنالیز در دسترس نیست
+2025-03-11 11:55:56,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:56:06,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:56:16,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:56:26,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:56:36,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:56:46,810 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:56:54,778 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:56:54,960 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81694.87
+            RSI: 60.3301987
+            BB Middle: 81619.23550000001
+            BB Upper: 81852.62832852
+            BB Lower: 81385.84267148
+            NWE: 120971.5260741341
+            Upper Band: 121471.20672012908
+            Lower Band: 120471.84542813913
+            سیگنال: خنثی
+            
+2025-03-11 11:56:56,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:06,886 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:16,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:26,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:27,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:28,139 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5129
+            RSI: 74.39290446
+            BB Middle: 0.497625
+            BB Upper: 0.51220195
+            BB Lower: 0.48304805
+            NWE: 1.0641701472828957
+            Upper Band: 1.0981158782647784
+            Lower Band: 1.030224416301013
+            سیگنال: خنثی
+            
+2025-03-11 11:57:28,139 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 11:57:28,338 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5129
+            RSI: 74.39290446
+            BB Middle: 0.497625
+            BB Upper: 0.51220195
+            BB Lower: 0.48304805
+            NWE: 1.0641701472828957
+            Upper Band: 1.0981158782647784
+            Lower Band: 1.030224416301013
+            سیگنال: خنثی
+            
+2025-03-11 11:57:28,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/sendMessage "HTTP/1.1 200 OK"
+2025-03-11 11:57:38,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:48,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:57:54,961 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:57:55,131 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81714.23
+            RSI: 60.96012345
+            BB Middle: 81620.2035
+            BB Upper: 81854.99945354
+            BB Lower: 81385.40754646
+            NWE: 123372.65091416819
+            Upper Band: 123877.31057877965
+            Lower Band: 122867.99124955673
+            سیگنال: خنثی
+            
+2025-03-11 11:57:58,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:08,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:18,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:28,340 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 11:58:28,528 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5141
+            RSI: 75.24310857
+            BB Middle: 0.49768500000000004
+            BB Upper: 0.51252054
+            BB Lower: 0.48284946
+            NWE: 1.0840475235807456
+            Upper Band: 1.1187638687292116
+            Lower Band: 1.0493311784322796
+            سیگنال: خنثی
+            
+2025-03-11 11:58:28,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:38,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:48,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:58:55,133 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:58:55,320 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81760.72
+            RSI: 62.39408976
+            BB Middle: 81622.52799999999
+            BB Upper: 81861.87775956
+            BB Lower: 81383.17824044
+            NWE: 128838.99604152841
+            Upper Band: 129358.0265724288
+            Lower Band: 128319.96551062803
+            سیگنال: خنثی
+            
+2025-03-11 11:58:58,684 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:08,722 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:18,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:28,529 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 11:59:28,715 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5155
+            RSI: 76.16631918
+            BB Middle: 0.497755
+            BB Upper: 0.51290947
+            BB Lower: 0.48260053
+            NWE: 1.105647918935265
+            Upper Band: 1.1412974090662287
+            Lower Band: 1.0699984288043014
+            سیگنال: خنثی
+            
+2025-03-11 11:59:28,800 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:38,838 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:48,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 11:59:55,321 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 11:59:55,472 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81799.99
+            RSI: 63.52575552
+            BB Middle: 81624.4915
+            BB Upper: 81868.93378889
+            BB Lower: 81380.04921111
+            NWE: 133153.38782153133
+            Upper Band: 133687.1554066878
+            Lower Band: 132619.62023637487
+            سیگنال: خنثی
+            
+2025-03-11 11:59:58,914 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:08,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:19,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:28,716 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:00:29,163 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5171
+            RSI: 76.83611136
+            BB Middle: 0.499495
+            BB Upper: 0.51588176
+            BB Lower: 0.48310824
+            NWE: 1.1251278573985746
+            Upper Band: 1.1638227583660927
+            Lower Band: 1.0864329564310564
+            سیگنال: خنثی
+            
+2025-03-11 12:00:29,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:39,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:49,239 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:00:55,473 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:00:55,669 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81861.5
+            RSI: 65.27167606
+            BB Middle: 81645.784
+            BB Upper: 81897.27191318
+            BB Lower: 81394.29608682
+            NWE: 139841.26814902687
+            Upper Band: 140396.28381120646
+            Lower Band: 139286.25248684728
+            سیگنال: خنثی
+            
+2025-03-11 12:00:59,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:09,322 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:19,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:29,164 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:01:29,340 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5168
+            RSI: 76.21365984
+            BB Middle: 0.49948
+            BB Upper: 0.5158027
+            BB Lower: 0.4831573
+            NWE: 1.1105832327799954
+            Upper Band: 1.148991194507043
+            Lower Band: 1.0721752710529477
+            سیگنال: خنثی
+            
+2025-03-11 12:01:29,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:39,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:49,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:01:55,670 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:01:55,859 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81783.84
+            RSI: 62.50376706
+            BB Middle: 81641.901
+            BB Upper: 81882.09066052
+            BB Lower: 81401.71133948
+            NWE: 129287.5011225967
+            Upper Band: 129808.70475233441
+            Lower Band: 128766.297492859
+            سیگنال: خنثی
+            
+2025-03-11 12:01:59,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:09,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:19,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:29,341 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:02:29,509 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5137
+            RSI: 70.32657792
+            BB Middle: 0.499325
+            BB Upper: 0.51503422
+            BB Lower: 0.48361578
+            NWE: 0.9730391947189861
+            Upper Band: 1.0087686777979061
+            Lower Band: 0.937309711640066
+            سیگنال: خنثی
+            
+2025-03-11 12:02:29,629 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:39,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:49,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:02:55,860 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:02:56,057 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81845.25
+            RSI: 64.82251561
+            BB Middle: 81644.9715
+            BB Upper: 81893.75692632
+            BB Lower: 81396.18607368
+            NWE: 138128.28640414547
+            Upper Band: 138675.84571045064
+            Lower Band: 137580.7270978403
+            سیگنال: خنثی
+            
+2025-03-11 12:02:59,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:09,785 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:19,822 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:29,510 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:03:29,661 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5143
+            RSI: 71.39395597
+            BB Middle: 0.499355
+            BB Upper: 0.51517581
+            BB Lower: 0.48353419
+            NWE: 0.9979745690845254
+            Upper Band: 1.0341833504094395
+            Lower Band: 0.9617657877596113
+            سیگنال: خنثی
+            
+2025-03-11 12:03:29,859 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:39,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:49,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:03:56,058 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:03:56,272 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81835.64
+            RSI: 64.55137969
+            BB Middle: 81644.49100000001
+            BB Upper: 81891.75981061
+            BB Lower: 81397.22218939
+            NWE: 137094.27737968438
+            Upper Band: 137637.60346736558
+            Lower Band: 136550.95129200318
+            سیگنال: خنثی
+            
+2025-03-11 12:03:59,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:10,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:20,047 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:29,661 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:04:29,851 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5111
+            RSI: 66.04763784
+            BB Middle: 0.499195
+            BB Upper: 0.51446307
+            BB Lower: 0.48392693
+            NWE: 0.8730904326756208
+            Upper Band: 0.9069441633197887
+            Lower Band: 0.839236702031453
+            سیگنال: خنثی
+            
+2025-03-11 12:04:30,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:40,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:50,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:04:56,273 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:04:56,471 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81800
+            RSI: 63.32649828
+            BB Middle: 81642.709
+            BB Upper: 81884.90351763
+            BB Lower: 81400.51448237
+            NWE: 132423.828725749
+            Upper Band: 132952.0436276266
+            Lower Band: 131895.61382387136
+            سیگنال: خنثی
+            
+2025-03-11 12:05:00,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:10,236 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:20,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:29,852 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:05:30,045 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5108
+            RSI: 65.13311102
+            BB Middle: 0.49916499999999997
+            BB Upper: 0.51434147
+            BB Lower: 0.48398853
+            NWE: 0.8517315963696693
+            Upper Band: 0.8851968885291334
+            Lower Band: 0.8182663042102053
+            سیگنال: خنثی
+            
+2025-03-11 12:05:30,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:40,352 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:50,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:05:56,473 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:05:56,665 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81734.38
+            RSI: 60.00981505
+            BB Middle: 81640.7855
+            BB Upper: 81877.72057052
+            BB Lower: 81403.85042948
+            NWE: 119782.66118603629
+            Upper Band: 120288.91191560941
+            Lower Band: 119276.41045646317
+            سیگنال: خنثی
+            
+2025-03-11 12:06:00,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:10,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:20,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:30,046 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:06:30,198 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5098
+            RSI: 63.99704267
+            BB Middle: 0.500205
+            BB Upper: 0.51536
+            BB Lower: 0.48505
+            NWE: 0.8269832432797347
+            Upper Band: 0.8601712865388861
+            Lower Band: 0.7937952000205833
+            سیگنال: خنثی
+            
+2025-03-11 12:06:30,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:40,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:50,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:06:56,666 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:06:56,846 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81654.74
+            RSI: 56.39981687
+            BB Middle: 81636.80350000001
+            BB Upper: 81869.95958907
+            BB Lower: 81403.64741093
+            NWE: 106021.78087571655
+            Upper Band: 106508.71778221149
+            Lower Band: 105534.8439692216
+            سیگنال: خنثی
+            
+2025-03-11 12:07:00,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:10,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:20,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:30,200 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:07:30,381 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5087
+            RSI: 62.32298055
+            BB Middle: 0.50015
+            BB Upper: 0.51517272
+            BB Lower: 0.48512728
+            NWE: 0.7878135626219971
+            Upper Band: 0.8203761024272992
+            Lower Band: 0.755251022816695
+            سیگنال: خنثی
+            
+2025-03-11 12:07:30,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:40,809 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:50,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:07:56,847 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:07:57,039 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81599
+            RSI: 54.0462847
+            BB Middle: 81634.0165
+            BB Upper: 81867.58055912
+            BB Lower: 81400.45244088
+            NWE: 97050.89395477631
+            Upper Band: 97531.34255557909
+            Lower Band: 96570.44535397354
+            سیگنال: خنثی
+            
+2025-03-11 12:08:00,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:10,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:20,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:30,383 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:08:30,584 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5109
+            RSI: 65.60687097
+            BB Middle: 0.5002599999999999
+            BB Upper: 0.51556116
+            BB Lower: 0.48495884
+            NWE: 0.8646617359562455
+            Upper Band: 0.8984987785649928
+            Lower Band: 0.8308246933474982
+            سیگنال: خنثی
+            
+2025-03-11 12:08:31,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:41,043 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:51,082 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:08:57,040 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:08:57,235 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81456.43
+            RSI: 48.83402385
+            BB Middle: 81626.887999995
+            BB Upper: 81872.6746343
+            BB Lower: 81381.10136569
+            NWE: 77184.75328498424
+            Upper Band: 77680.89072983873
+            Lower Band: 76688.61584012974
+            سیگنال: خنثی
+            
+2025-03-11 12:09:01,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:11,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:21,199 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:30,584 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:09:30,776 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5104
+            RSI: 64.94863727
+            BB Middle: 0.500235
+            BB Upper: 0.51546803
+            BB Lower: 0.48500197
+            NWE: 0.8492503252324929
+            Upper Band: 0.8828028124498664
+            Lower Band: 0.8156978380151194
+            سیگنال: خنثی
+            
+2025-03-11 12:09:31,237 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:41,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:51,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:09:57,236 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:09:57,455 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81546.42
+            RSI: 51.99939539
+            BB Middle: 81631.3875
+            BB Upper: 81867.63720149
+            BB Lower: 81395.13779851
+            NWE: 89249.10184898313
+            Upper Band: 89728.61753571952
+            Lower Band: 88769.58616224675
+            سیگنال: خنثی
+            
+2025-03-11 12:10:01,358 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:11,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:21,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:30,777 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:10:30,967 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5141
+            RSI: 67.95046195
+            BB Middle: 0.501605
+            BB Upper: 0.51783207
+            BB Lower: 0.48537793
+            NWE: 0.9218536287098312
+            Upper Band: 0.9582460542891497
+            Lower Band: 0.8854612031305128
+            سیگنال: خنثی
+            
+2025-03-11 12:10:31,471 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:41,508 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:51,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:10:57,457 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:10:57,636 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81593.7
+            RSI: 53.54576374
+            BB Middle: 81620.5675
+            BB Upper: 81856.7683178
+            BB Lower: 81384.3666822
+            NWE: 95128.16848671157
+            Upper Band: 95612.46230561238
+            Lower Band: 94643.87466781076
+            سیگنال: خنثی
+            
+2025-03-11 12:11:01,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:11,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:21,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:30,968 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:11:31,172 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5152
+            RSI: 68.97462558
+            BB Middle: 0.50166
+            BB Upper: 0.51806261
+            BB Lower: 0.48525739
+            NWE: 0.9459346232660537
+            Upper Band: 0.9829450542075162
+            Lower Band: 0.9089241923245912
+            سیگنال: خنثی
+            
+2025-03-11 12:11:31,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:41,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:51,809 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:11:57,638 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:11:57,863 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81599.99
+            RSI: 53.74555985
+            BB Middle: 81620.882
+            BB Upper: 81856.95560057
+            BB Lower: 81384.80839943
+            NWE: 95889.6620378937
+            Upper Band: 96374.3248483906
+            Lower Band: 95404.99922739678
+            سیگنال: خنثی
+            
+2025-03-11 12:12:01,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:11,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:21,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:31,173 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:12:31,360 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5171
+            RSI: 70.3349639
+            BB Middle: 0.501755
+            BB Upper: 0.51848885
+            BB Lower: 0.48502115
+            NWE: 0.9779709456754877
+            Upper Band: 1.0160327493456411
+            Lower Band: 0.9399091420053343
+            سیگنال: خنثی
+            
+2025-03-11 12:12:31,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:41,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:52,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:12:57,864 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:12:58,048 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81565.99
+            RSI: 52.64463115
+            BB Middle: 81619.182
+            BB Upper: 81856.3201793
+            BB Lower: 81382.0438207
+            NWE: 91693.74380476128
+            Upper Band: 92177.10602763726
+            Lower Band: 91210.3815818853
+            سیگنال: خنثی
+            
+2025-03-11 12:13:02,061 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:12,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:22,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:31,361 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:13:31,578 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5177
+            RSI: 70.74009949
+            BB Middle: 0.501785
+            BB Upper: 0.51863057
+            BB Lower: 0.48493943
+            NWE: 0.9875176855263346
+            Upper Band: 1.0259247337825
+            Lower Band: 0.9491106372701692
+            سیگنال: خنثی
+            
+2025-03-11 12:13:32,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:42,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:52,222 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:13:58,050 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:13:58,249 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81608.33
+            RSI: 54.00783729
+            BB Middle: 81621.299
+            BB Upper: 81857.25294622
+            BB Lower: 81385.34505378
+            NWE: 96889.30783612578
+            Upper Band: 97374.55137069672
+            Lower Band: 96404.06430155484
+            سیگنال: خنثی
+            
+2025-03-11 12:14:02,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:12,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:22,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:31,579 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:14:31,771 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5148
+            RSI: 68.67218607
+            BB Middle: 0.50164
+            BB Upper: 0.51797737
+            BB Lower: 0.48530263
+            NWE: 0.9388158310433582
+            Upper Band: 0.9756130764087347
+            Lower Band: 0.9020185856779817
+            سیگنال: خنثی
+            
+2025-03-11 12:14:32,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:42,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:52,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:14:58,250 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:14:58,480 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81582
+            RSI: 53.16949543
+            BB Middle: 81619.9825
+            BB Upper: 81856.50432845
+            BB Lower: 81383.46067155
+            NWE: 93694.10133249692
+            Upper Band: 94177.8649460376
+            Lower Band: 93210.33771895625
+            سیگنال: خنثی
+            
+2025-03-11 12:15:02,462 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:12,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:22,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:31,772 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:15:31,957 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5153
+            RSI: 69.06078557
+            BB Middle: 0.50284
+            BB Upper: 0.51957038
+            BB Lower: 0.48610962
+            NWE: 0.9501817495836505
+            Upper Band: 0.9879510010831593
+            Lower Band: 0.9124124980841418
+            سیگنال: خنثی
+            
+2025-03-11 12:15:32,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:42,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:52,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:15:58,481 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:15:58,659 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81685.73
+            RSI: 56.45730798
+            BB Middle: 81620.89749999999
+            BB Upper: 81855.80403209
+            BB Lower: 81385.99096791
+            NWE: 106220.13723735564
+            Upper Band: 106710.910209398
+            Lower Band: 105729.36426531327
+            سیگنال: خنثی
+            
+2025-03-11 12:16:02,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:12,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:22,717 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:31,958 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:16:32,182 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5132
+            RSI: 65.64967384
+            BB Middle: 0.502735
+            BB Upper: 0.51917511
+            BB Lower: 0.48629489
+            NWE: 0.869943927229632
+            Upper Band: 0.9063090446654029
+            Lower Band: 0.8335788097938611
+            سیگنال: خنثی
+            
+2025-03-11 12:16:32,748 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:42,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:52,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:16:58,660 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:16:58,858 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81781.15
+            RSI: 59.15875215
+            BB Middle: 81625.6685
+            BB Upper: 81869.36000824
+            BB Lower: 81381.97699176
+            NWE: 116518.15154902535
+            Upper Band: 117036.06907989962
+            Lower Band: 116000.23401815108
+            سیگنال: خنثی
+            
+2025-03-11 12:17:02,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:12,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:22,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:32,183 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:17:32,387 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5185
+            RSI: 71.43040926
+            BB Middle: 0.503
+            BB Upper: 0.52025688
+            BB Lower: 0.48574312
+            NWE: 1.006115003335452
+            Upper Band: 1.0456188904281472
+            Lower Band: 0.9666111162427569
+            سیگنال: خنثی
+            
+2025-03-11 12:17:32,941 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:42,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:53,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:17:58,858 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:17:59,054 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81786.35
+            RSI: 59.29637096
+            BB Middle: 81625.92850000001
+            BB Upper: 81870.29316667
+            BB Lower: 81381.56383333
+            NWE: 117042.81652629563
+            Upper Band: 117562.61378227253
+            Lower Band: 116523.01927031873
+            سیگنال: خنثی
+            
+2025-03-11 12:18:03,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:13,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:23,134 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:32,388 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:18:32,577 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5177
+            RSI: 70.87269675
+            BB Middle: 0.5029600000000001
+            BB Upper: 0.52007612
+            BB Lower: 0.48584388
+            NWE: 0.9929427935547829
+            Upper Band: 1.0319969882037168
+            Lower Band: 0.9538885989058489
+            سیگنال: خنثی
+            
+2025-03-11 12:18:33,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:43,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:53,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:18:59,055 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:18:59,253 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81817.79
+            RSI: 60.10907438
+            BB Middle: 81627.5005
+            BB Upper: 81876.33651243
+            BB Lower: 81378.66448757
+            NWE: 120141.33047686613
+            Upper Band: 120673.33934323964
+            Lower Band: 119609.32161049263
+            سیگنال: خنثی
+            
+2025-03-11 12:19:03,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:13,288 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:23,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:32,578 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:19:32,770 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5233
+            RSI: 74.37439369
+            BB Middle: 0.50324
+            BB Upper: 0.52145915
+            BB Lower: 0.48502085
+            NWE: 1.0757430355584652
+            Upper Band: 1.1181659510871231
+            Lower Band: 1.0333201200298072
+            سیگنال: خنثی
+            
+2025-03-11 12:19:33,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:43,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:53,411 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:19:59,254 - __main__ - INFO - بررسی BTCUSDT برای کاربر 1333597074
+2025-03-11 12:19:59,441 - __main__ - INFO - 
+            تحلیل BTCUSDT:
+            قیمت: 81800.99
+            RSI: 59.67888645
+            BB Middle: 81626.6605
+            BB Upper: 81873.02251258
+            BB Lower: 81380.29848742
+            NWE: 118501.1691872245
+            Upper Band: 119026.47345455924
+            Lower Band: 117975.86491988976
+            سیگنال: خنثی
+            
+2025-03-11 12:20:03,443 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:20:13,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:20:23,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:20:32,772 - __main__ - INFO - بررسی MOVEUSDT برای کاربر 1333597074
+2025-03-11 12:20:32,976 - __main__ - INFO - 
+            تحلیل MOVEUSDT:
+            قیمت: 0.5165
+            RSI: 69.99406938
+            BB Middle: 0.504185
+            BB Upper: 0.5211339
+            BB Lower: 0.4872361
+            NWE: 0.9746853320157163
+            Upper Band: 1.0131591226988959
+            Lower Band: 0.9362115413325368
+            سیگنال: خنثی
+            
+2025-03-11 12:20:33,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
+2025-03-11 12:20:43,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7271140721:AAED744RBzoT_-r7pXgQJpzwt2PxhmH5Svw/getUpdates "HTTP/1.1 200 OK"
